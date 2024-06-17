@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Nostro Sito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Benvenuto al Nostro Sito</h1>
+    <button id="popupButton">Hai una domanda!</button>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p>Mi ami?</p>
+            <button onclick="alert('Ti amo anche io tato (moltissimo)!')">Sì</button>
+            <button onclick="alert('Oh no!')">No</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
